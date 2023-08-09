@@ -6,18 +6,18 @@ Module 7 Final Project: Web Scraping
 Kelly Simmons
 
 ## Description
-This project is part of the Web Mining and Applied NLP (44-620) course. The purpose of this file is to retrieve Forex Trading data from a CVS data file saved to my local computer downloded from https://www.kaggle.com/datasets/diqiland/major-forex in an effort to use Spacy to creat visuals that will nopt only show the data from the CSV file but also show current currency pair price data and update it at a specified time. Thus allowing me to see trends I can use to make good Forev Tradeing decisions.
+This project is part of the Web Mining and Applied NLP (44-620) course. The purpose of this file is to scrape important information from an Forex Trading artical then creating visuals using spaCy.URL for the artical is https://admiralmarkets.com/education/articles/forex-basics/forex-day-trading-explained. 
 
 ## Table of contents
 
-### Read in data from CSV file
+### Scrape article to get data
+Read in code that will scrape the the artical for data.
+
+### Read in data scrapped from article
 The code in this section attempts to access the CSV file and reads it into my repo creating a new file named Forex Pair Data.
 
 ### Data processing with Spacy module
-Read in data into Spacy creating an interactive app I can use.
-
-### Create code to allow Spacy to update new data
-Read in new codes that will allow Spacy to update data and chart it for me to see all data or just one specific currency pair price data.
+Read in data into Spacy creating visuals
 
 ## Installation
 
